@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0b090d;
+  color: #e8ded2;
+}
+
+.fa-header {
+  background: #171219;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-hero {
+  position: relative;
+  min-height: 70vh;
+  background: url('hero.jpg') center/cover no-repeat;
+}
+
+.fa-hero .overlay {
+  background: rgba(0,0,0,0.6);
+  padding: 3rem;
+  max-width: 600px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #8f1d2c;
+  color: #e8ded2;
+  text-decoration: none;
+}
